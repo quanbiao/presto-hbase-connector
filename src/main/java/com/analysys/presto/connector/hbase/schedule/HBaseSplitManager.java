@@ -209,7 +209,7 @@ public class HBaseSplitManager implements ConnectorSplitManager {
     }
 
     /**
-     * get splits for scan query mode
+     * Get splits for scan query mode
      *
      * @param conditions    conditions
      * @param tableMetaInfo tableMetaInfo
