@@ -98,7 +98,7 @@ public class HBaseSplitManager implements ConnectorSplitManager {
         }
 
         log.info("The final split count is " + splits.size() + ".");
-        splits.forEach(split -> log.info("print split info：" + split.toString()));
+        splits.forEach(split -> log.info("Print split info：" + split.toString()));
 
         Collections.shuffle(splits);
         return new FixedSplitSource(splits);
